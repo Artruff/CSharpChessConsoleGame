@@ -7,8 +7,11 @@ using System.Threading.Tasks;
 
 namespace ChessGame.Figures.StrokeRules
 {
-    public interface IStrokeRule
+    internal class KingStrokeRule : IStrokeRule
     {
-        bool[][] PossibleMove(IBoard board, int x, int y);
+        public bool[][] PossibleMove(IBoard board, int x, int y)
+        {
+
+        }
     }
 }

@@ -49,6 +49,7 @@
     <Compile Include="Figures\IFigure.cs" />
     <Compile Include="Figures\MoveDelegate.cs" />
     <Compile Include="Figures\StrokeRules\IStrokeRule.cs" />
+    <Compile Include="Figures\StrokeRules\KingStrokeRule.cs" />
     <Compile Include="Game\Game.cs" />
     <Compile Include="Game\GamesDelegates.cs" />
     <Compile Include="Game\IGame.cs" />
