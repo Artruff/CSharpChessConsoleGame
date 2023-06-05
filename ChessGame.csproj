@@ -48,8 +48,13 @@
     <Compile Include="Figures\Figure.cs" />
     <Compile Include="Figures\IFigure.cs" />
     <Compile Include="Figures\MoveDelegate.cs" />
+    <Compile Include="Figures\StrokeRules\BishopStrokeRule.cs" />
     <Compile Include="Figures\StrokeRules\IStrokeRule.cs" />
     <Compile Include="Figures\StrokeRules\KingStrokeRule.cs" />
+    <Compile Include="Figures\StrokeRules\KnightStrokeRules.cs" />
+    <Compile Include="Figures\StrokeRules\PawnStrokeRule.cs" />
+    <Compile Include="Figures\StrokeRules\QueenStrokeRule.cs" />
+    <Compile Include="Figures\StrokeRules\RookStrokeRule.cs" />
     <Compile Include="Game\Game.cs" />
     <Compile Include="Game\GamesDelegates.cs" />
     <Compile Include="Game\IGame.cs" />

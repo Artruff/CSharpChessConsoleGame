@@ -36,6 +36,6 @@ namespace ChessGame.Figures
         /// <summary>
         /// Получение номера команды фигуры
         /// </summary>
-        byte team { get; }
+        byte team { get; } // 1 - белые, 2 - черные
     }
 }
