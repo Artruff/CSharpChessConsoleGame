@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ChessGame.Boards;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -22,7 +23,7 @@ namespace ChessGame.Figures
         /// Значение элемента - номер команды фигуры в чейке этого поля.
         /// Значение 0 - ячейка свободна</param>
         /// <returns>Карта возможных ходов. true - ход в ячейку возможен, false - нет.</returns>
-        bool[][] PossibleMove(byte[][] board);
+        bool[][] PossibleMove(IBoard board);
         /// <summary>
         /// Сделать ход фигурой
         /// </summary>

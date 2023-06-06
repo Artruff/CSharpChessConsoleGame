@@ -23,12 +23,7 @@ namespace ChessGame.Game
         /// </summary>
         IPlayer[] players { get; }
         /// <summary>
-        /// Ход текущего игрока
-        /// </summary>
-        IPlayer currentPlayer { get; }
-        /// <summary>
         /// Запуск игры
         /// </summary>
-        void Start();
     }
 }

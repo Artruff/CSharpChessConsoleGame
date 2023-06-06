@@ -56,7 +56,7 @@
     <Compile Include="Figures\StrokeRules\QueenStrokeRule.cs" />
     <Compile Include="Figures\StrokeRules\RookStrokeRule.cs" />
     <Compile Include="Game\Game.cs" />
-    <Compile Include="Game\GamesDelegates.cs" />
+    <Compile Include="Delegates.cs" />
     <Compile Include="Game\IGame.cs" />
     <Compile Include="Players\IPlayer.cs" />
     <Compile Include="Players\Player.cs" />

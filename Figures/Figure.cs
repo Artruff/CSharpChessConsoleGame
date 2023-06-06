@@ -1,4 +1,5 @@
-﻿using ChessGame.Figures.StrokeRules;
+﻿using ChessGame.Boards;
+using ChessGame.Figures.StrokeRules;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -34,9 +35,9 @@ namespace ChessGame.Figures
             Move?.Invoke(this, x, y);
         }
 
-        public bool[][] PossibleMove(byte[][] board)
+        public bool[][] PossibleMove(IBoard board)
         {
-            return _strokeRule.PossibleMove(board);
+            return _strokeRule.PossibleMove(board, _x, _y);
         }
     }
 }
